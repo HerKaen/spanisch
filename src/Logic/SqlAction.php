@@ -19,11 +19,12 @@ class SqlAction
     public function __invoke()
     {
 
-        if (isset($_POST["comment"]) && ($_POST["spanisch"])) {
+        if (isset($_POST["comment"])) {
 
+            $comment = $_POST['comment'];
 
             $db = mysqli_connect("localhost", "root", "", "nico");
-            $eintrag = $_POST['comment'];
+            $eintrag = "INSERT INTO spanisch (kategorie, deutsch, spanisch) VALUES ($comment)";
             $eintragen = mysqli_query($db, $eintrag);
             mysqli_close($db);
         }

@@ -15,7 +15,7 @@ class ListAction
         $db = mysqli_connect("localhost", "root", "", "nico");
 
         if (isset($_POST["selector"])) {
-            $sql = "SELECT * FROM spanisch WHERE kategorie = $_POST[kategorie]";
+            $sql = "SELECT * FROM spanisch WHERE kategorie = '$_POST[kategorie]'";
         } else {
             $sql = "SELECT * FROM spanisch";
         }
@@ -35,3 +35,5 @@ class ListAction
         mysqli_close($db);
     }
 }
+
+#------------------------------------------------------------------------------------------

@@ -16,8 +16,8 @@ class WriteAction
         if (isset($_POST["deutsch"]) && ($_POST["spanisch"])) {
 
             $kategorie = $_POST["kategorie"];
-            $deutsch = $_POST["deutsch"];
-            $spanisch = $_POST["spanisch"];
+            $deutsch = ucfirst($_POST["deutsch"]);
+            $spanisch = ucfirst($_POST["spanisch"]);
 
             $db = mysqli_connect("localhost", "root", "", "nico");
             $eintrag = "INSERT INTO spanisch (kategorie, deutsch, spanisch) VALUES ('$kategorie', '$deutsch', '$spanisch')";

@@ -53,4 +53,6 @@ if (!empty($_POST["submit2"])) {
 
 }
 
+echo '</form>';
+
 ?>
