@@ -9,8 +9,8 @@ class ListAction
     {
         echo '<br><center>';
 
-        require "Navigation.html";
-        require "Panel.html";
+        require "Formulare/Navigation.html";
+        require "Formulare/Panel.html";
 
         $db = mysqli_connect("localhost", "root", "", "nico");
 

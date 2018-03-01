@@ -10,9 +10,9 @@ namespace spanisch\Logic;
 
 echo '<center>';
 
-require "Navigation.html";
+require "Formulare/Navigation.html";
 
-require "SQL.html";
+require "Formulare/SQL.html";
 
 class SqlAction
 {

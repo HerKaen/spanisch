@@ -25,7 +25,10 @@ class Bootstrap
      */
     public function registerRoutes($app)
     {
-        $app->any("/", WriteAction::class);
+        $app->any("/", HomeAction::class);
+        $app->any("/spager", SpaGerAction::class);
+        $app->any("/gerspa", GerSpaAction::class);
+        $app->any("/eintragen", WriteAction::class);
         $app->any("/list", ListAction::class);
         $app->any("/sql", SqlAction::class);
     }

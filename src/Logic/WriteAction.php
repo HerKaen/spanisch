@@ -4,9 +4,9 @@ namespace spanisch\Logic;
 
 echo '<br><center>';
 
-require "Navigation.html";
+require "Formulare/Navigation.html";
 
-require "Formular.html";
+require "Formulare/Formular.html";
 
 class WriteAction
 {
