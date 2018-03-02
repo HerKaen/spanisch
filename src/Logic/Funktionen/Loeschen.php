@@ -14,10 +14,6 @@ echo "</table>";
 echo '<br>';
 echo '<input type="submit" name="submit" value="Eintrag Löschen" class="btn-danger">';
 
-echo '<br><br>';
-
-echo '<hr>';
-
 if (!empty($_POST["submit"]) && $_POST['Id2'] != '') {
 
     $id2 = $_POST['Id2'];

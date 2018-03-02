@@ -20,10 +20,6 @@ echo "</table>";
 echo '<br>';
 echo '<input type="submit" name="submit2" value="Änderung abschicken" class="btn-primary">';
 
-echo '<br><br>';
-
-echo '<hr>';
-
 echo '</form>';
 
 
