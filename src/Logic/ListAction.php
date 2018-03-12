@@ -3,7 +3,9 @@
 namespace spanisch\Logic;
 
 
-class ListAction
+use spanisch\Logic\Funktionen\DbConnect;
+
+class ListAction extends DbConnect
 {
     public function __invoke()
     {
@@ -14,25 +16,25 @@ class ListAction
 
         echo '<br>';
 
-        $db = mysqli_connect("localhost", "root", "", "nico");
+        $db = $this->connect();
 
         if (isset($_POST["selector"])) {
-            $sql = "SELECT * FROM spanisch WHERE kategorie = '$_POST[kategorie]'";
+            $query = "SELECT * FROM spanisch WHERE kategorie = '$_POST[kategorie]'";
 
-            $result = mysqli_query($db, $sql);
+            $result = $db->query($query);
 
             echo '<br>';
 
             echo "<table border='3' style='text-align: center; border-color:black; background-color:yellowgreen' width='50%';><tr style='font-weight: bold; color:darkslategrey;'><td width='2%'>ID</td><td width='5%'>Kategorie</td><td width='5%'>Deutsch</td><td width='5%'>Spanisch</td></tr>";
 
-            while ($row = mysqli_fetch_assoc($result)) {
+            while ($row = $result->fetch_assoc()) {
 
                 echo "<tr><td>" . $row['id'] . "</td><td>" . $row['kategorie'] . '</td><td>' . $row['deutsch'] . '</td><td>' . $row['spanisch'] . "</td></tr>";
             }
             echo "</table>";
 
         } else {
-            $sql = "SELECT * FROM spanisch";
+            $query = "SELECT * FROM spanisch";
 
             require "Funktionen/Pagination.php";
         }

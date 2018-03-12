@@ -2,11 +2,13 @@
 
 namespace spanisch\Logic;
 
+use spanisch\Logic\Funktionen\DbConnect;
+
 echo '<br><center>';
 
 require "Formulare/Navigation.html";
 
-class SpaGerAction
+class SpaGerAction extends DbConnect
 {
     public function __invoke()
     {
@@ -17,17 +19,17 @@ class SpaGerAction
 
         $spa = $this->IsPosted();
 
-        $db = mysqli_connect("localhost", "root", "", "nico");
+        $db = $this->connect();
 
-        $sql = "SELECT * FROM spanisch";
-        $result = mysqli_query($db, $sql);
+        $query = "SELECT * FROM spanisch";
+        $result = $db->query($query);
         $spanisch = array();
         while ($row = mysqli_fetch_array($result)) {
             $spanisch[] = $row['spanisch'];
         }
 
-        $sql2 = "SELECT * FROM spanisch";
-        $result2 = mysqli_query($db, $sql2);
+        $query2 = "SELECT * FROM spanisch";
+        $result2 = mysqli_query($db, $query2);
         $deutsch = array();
         while ($row2 = mysqli_fetch_array($result2)) {
             $deutsch[] = $row2['deutsch'];

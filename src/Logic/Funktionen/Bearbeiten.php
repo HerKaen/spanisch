@@ -4,7 +4,7 @@ echo "<form action='' method='POST''>";
 
 $db3 = mysqli_connect("localhost", "root", "", "nico");
 
-$sql3 = "SELECT * FROM spanisch";
+$query3 = "SELECT * FROM spanisch";
 
 
 echo '<br>';
@@ -33,16 +33,16 @@ if (!empty($_POST["submit2"])) {
 
 
     if (isset($_POST['kategorie2']) && $_POST['kategorie2'] != '') {
-        $sql3 = "UPDATE spanisch SET kategorie='$kategorie2' WHERE Id='$id2'";
-        mysqli_query($db3, $sql3);
+        $query3 = "UPDATE spanisch SET kategorie='$kategorie2' WHERE Id='$id2'";
+        mysqli_query($db3, $query3);
     }
     if (isset($_POST['deutsch2']) && $_POST['deutsch2'] != '') {
-        $sql3 = "UPDATE spanisch SET deutsch='$deutsch2' WHERE Id='$id2'";
-        mysqli_query($db3, $sql3);
+        $query3 = "UPDATE spanisch SET deutsch='$deutsch2' WHERE Id='$id2'";
+        mysqli_query($db3, $query3);
     }
     if (isset($_POST['spanisch2']) && $_POST['spanisch2'] != '') {
-        $sql3 = "UPDATE spanisch SET spanisch='$spanisch2' WHERE Id='$id2'";
-        mysqli_query($db3, $sql3);
+        $query3 = "UPDATE spanisch SET spanisch='$spanisch2' WHERE Id='$id2'";
+        mysqli_query($db3, $query3);
     }
 
     mysqli_close($db3);

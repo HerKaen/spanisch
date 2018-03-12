@@ -2,13 +2,15 @@
 
 namespace spanisch\Logic;
 
+use spanisch\Logic\Funktionen\DbConnect;
+
 echo '<br><center>';
 
 require "Formulare/Navigation.html";
 
 require "Formulare/Formular.html";
 
-class WriteAction
+class WriteAction extends DbConnect
 {
     public function __invoke()
     {
@@ -19,10 +21,12 @@ class WriteAction
             $deutsch = ucfirst($_POST["deutsch"]);
             $spanisch = ucfirst($_POST["spanisch"]);
 
-            $db = mysqli_connect("localhost", "root", "", "nico");
+            $db = $this->connect();
+
             $eintrag = "INSERT INTO spanisch (kategorie, deutsch, spanisch) VALUES ('$kategorie', '$deutsch', '$spanisch')";
-            $eintragen = mysqli_query($db, $eintrag);
-            mysqli_close($db);
+            $eintragen = $db->query($eintrag);
+
+            $db->close();
         }
     }
 }

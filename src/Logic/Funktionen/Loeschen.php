@@ -3,7 +3,7 @@ echo "<form action='' method='POST''>";
 
 $db2 = mysqli_connect("localhost", "root", "", "nico");
 
-$sql2 = "SELECT * FROM spanisch";
+$query2 = "SELECT * FROM spanisch";
 
 echo "<table border='3' style='text-align: center; border-color:black; background-color:orangered' width='15%';><tr style='font-weight: bold;'><td>ID</td></tr>";
 
@@ -18,8 +18,8 @@ if (!empty($_POST["submit"]) && $_POST['Id2'] != '') {
 
     $id2 = $_POST['Id2'];
 
-    $sql2 = "DELETE FROM spanisch WHERE Id='$id2'";
-    mysqli_query($db2, $sql2);
+    $query2 = "DELETE FROM spanisch WHERE Id='$id2'";
+    mysqli_query($db2, $query2);
 
     mysqli_close($db2);
 

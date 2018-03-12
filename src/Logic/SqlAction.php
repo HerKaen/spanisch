@@ -8,13 +8,15 @@
 
 namespace spanisch\Logic;
 
+use spanisch\Logic\Funktionen\DbConnect;
+
 echo '<center>';
 
 require "Formulare/Navigation.html";
 
 require "Formulare/SQL.html";
 
-class SqlAction
+class SqlAction extends DbConnect
 {
     public function __invoke()
     {
@@ -23,7 +25,7 @@ class SqlAction
 
             $comment = $_POST['comment'];
 
-            $db = mysqli_connect("localhost", "root", "", "nico");
+            $db = $this->connect();
             $eintrag = "INSERT INTO spanisch (kategorie, deutsch, spanisch) VALUES ($comment)";
             $eintragen = mysqli_query($db, $eintrag);
             mysqli_close($db);

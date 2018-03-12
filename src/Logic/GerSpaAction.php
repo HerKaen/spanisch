@@ -2,11 +2,13 @@
 
 namespace spanisch\Logic;
 
+use spanisch\Logic\Funktionen\DbConnect;
+
 echo '<br><center>';
 
 require "Formulare/Navigation.html";
 
-class GerSpaAction
+class GerSpaAction extends DbConnect
 {
     public function __invoke()
     {
@@ -21,16 +23,16 @@ class GerSpaAction
             $spa = $_POST['spanisch'];
         }
 
-        $db = mysqli_connect("localhost", "root", "", "nico");
-        $sql = "SELECT * FROM spanisch";
-        $result = mysqli_query($db, $sql);
+        $db = $this->connect();
+        $query = "SELECT * FROM spanisch";
+        $result = $db->query($query);
         $deutsch = array();
         while ($row = mysqli_fetch_array($result)) {
             $deutsch[] = $row['deutsch'];
         }
 
-        $sql2 = "SELECT * FROM spanisch";
-        $result2 = mysqli_query($db, $sql2);
+        $query2 = "SELECT * FROM spanisch";
+        $result2 = mysqli_query($db, $query2);
         $spanisch = array();
         while ($row2 = mysqli_fetch_array($result2)) {
             $spanisch[] = $row2['spanisch'];

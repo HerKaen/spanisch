@@ -1,10 +1,10 @@
 <?php
 $dbx = mysqli_connect("localhost", "root", "", "nico");
 
-$sqlx = "SELECT * FROM spanisch";
-$sql = mysqli_query($dbx, $sqlx);
+$queryx = "SELECT * FROM spanisch";
+$query = mysqli_query($dbx, $queryx);
 
-$nr = mysqli_num_rows($sql);
+$nr = mysqli_num_rows($query);
 
 if (isset($_GET['pn'])) {
     $pn = preg_replace('#[^0-9]#i', '', $_GET['pn']);
@@ -52,9 +52,9 @@ if ($pn == 1) {
 }
 
 $limit = 'LIMIT ' . ($pn - 1) * $itemsPerPage . ',' . $itemsPerPage;
-$sqly = "SELECT * from spanisch $limit";
+$queryy = "SELECT * from spanisch $limit";
 
-$sql2 = mysqli_query($dbx, $sqly);
+$query2 = mysqli_query($dbx, $queryy);
 
 $paginationDisplay = "";
 
@@ -77,7 +77,7 @@ echo '<div style="margin-left:58px; margin-right:58px; padding:6px; background-c
 
 echo "<table border='3' style='text-align: center; border-color:black; background-color:yellowgreen' width='50%';><tr style='font-weight: bold; color:darkslategrey;'><td width='2%'>ID</td><td width='5%'>Kategorie</td><td width='5%'>Deutsch</td><td width='5%'>Spanisch</td></tr>";
 
-while ($row = mysqli_fetch_array($sql2)) {
+while ($row = mysqli_fetch_array($query2)) {
 
     echo "<tr><td>" . $row['id'] . "</td><td>" . $row['kategorie'] . '</td><td>' . $row['deutsch'] . '</td><td>' . $row['spanisch'] . "</td></tr>";
 

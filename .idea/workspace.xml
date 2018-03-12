@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffed2a55-8acc-4165-a438-502fdf4616e0" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Logic/Funktionen/Pagination.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Logic/Funktionen/DbConnect.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Logic/Formulare/Formular.html" afterPath="$PROJECT_DIR$/src/Logic/Formulare/Formular.html" />
       <change beforePath="$PROJECT_DIR$/src/Logic/Funktionen/Bearbeiten.php" afterPath="$PROJECT_DIR$/src/Logic/Funktionen/Bearbeiten.php" />
       <change beforePath="$PROJECT_DIR$/src/Logic/Funktionen/Loeschen.php" afterPath="$PROJECT_DIR$/src/Logic/Funktionen/Loeschen.php" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/Funktionen/Pagination.php" afterPath="$PROJECT_DIR$/src/Logic/Funktionen/Pagination.php" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/GerSpaAction.php" afterPath="$PROJECT_DIR$/src/Logic/GerSpaAction.php" />
       <change beforePath="$PROJECT_DIR$/src/Logic/ListAction.php" afterPath="$PROJECT_DIR$/src/Logic/ListAction.php" />
-      <change beforePath="$PROJECT_DIR$/webroot/styles.css" afterPath="$PROJECT_DIR$/webroot/styles.css" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/SpaGerAction.php" afterPath="$PROJECT_DIR$/src/Logic/SpaGerAction.php" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/SqlAction.php" afterPath="$PROJECT_DIR$/src/Logic/SqlAction.php" />
+      <change beforePath="$PROJECT_DIR$/src/Logic/WriteAction.php" afterPath="$PROJECT_DIR$/src/Logic/WriteAction.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,113 +26,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Panel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Logic/Formulare/Panel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1287">
-              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pagination.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/Pagination.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
-              <folding>
-                <marker date="1519994152007" expanded="true" signature="72:86" ph="SELECT * FRO... spanisch" />
-                <marker date="1519994152007" expanded="true" signature="72:94" ph="SELECT * FRO... spanisch" />
-                <marker date="1519994152007" expanded="true" signature="600:606" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="653:659" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="924:930" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="977:983" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="1288:1294" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="1341:1347" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="1768:1774" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="1821:1827" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="2051:2074" ph="SELECT * fro... spanisch" />
-                <marker date="1519994152007" expanded="true" signature="2251:2257" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="2259:2265" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="2267:2273" ph=" " />
-                <marker date="1519994152007" expanded="true" signature="2705:2800" ph="..." />
-                <marker date="1519994152007" expanded="true" signature="2873:2941" ph="..." />
-                <marker date="1519994152007" expanded="true" signature="2967:3006" ph="..." />
-                <marker date="1519994152007" expanded="true" signature="3352:3388" ph="..." />
-                <marker date="1519994152007" expanded="true" signature="3389:3448" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bearbeiten.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/Bearbeiten.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding>
-                <marker date="1519994200077" expanded="true" signature="114:136" ph="SELECT * FRO... spanisch" />
-                <marker date="1519994200077" expanded="true" signature="186:252" ph="..." />
-                <marker date="1519994200077" expanded="true" signature="278:296" ph="..." />
-                <marker date="1519994200077" expanded="true" signature="422:764" ph="..." />
-                <marker date="1519994200077" expanded="true" signature="422:884" ph="..." />
-                <marker date="1519994200077" expanded="true" signature="475:764" ph="..." />
-                <marker date="1519994200077" expanded="true" signature="519:756" ph="..." />
-                <marker date="1519994200077" expanded="true" signature="1295:1354" ph="UPDATE spanisch... " />
-                <marker date="1519994200077" expanded="true" signature="1480:1535" ph="UPDATE spanisch... " />
-                <marker date="1519994200077" expanded="true" signature="1663:1720" ph="UPDATE spanisch... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ListAction.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ListAction.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Logic/ListAction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+            <state relative-caret-position="1353">
+              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding>
-                <marker date="1519994287152" expanded="true" signature="354:396" ph="SELECT * FRO... spanisch" />
-                <marker date="1519994287152" expanded="true" signature="354:414" ph="SELECT * FRO... spanisch" />
-                <marker date="1519994287152" expanded="true" signature="535:603" ph="..." />
-                <marker date="1519994287152" expanded="true" signature="629:668" ph="..." />
-                <marker date="1519994287152" expanded="true" signature="1084:1106" ph="SELECT * FRO... spanisch" />
+                <marker date="1520851267620" expanded="true" signature="385:427" ph="SELECT * FRO... spanisch" />
+                <marker date="1520851267620" expanded="true" signature="385:445" ph="SELECT * FRO... spanisch" />
+                <marker date="1520851267620" expanded="true" signature="561:629" ph="..." />
+                <marker date="1520851267620" expanded="true" signature="655:694" ph="..." />
+                <marker date="1520851267620" expanded="true" signature="1107:1129" ph="SELECT * FRO... spanisch" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webroot/styles.css">
+      <file leaf-file-name="WriteAction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logic/WriteAction.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1242">
-              <caret line="7259" column="23" lean-forward="true" selection-start-line="7259" selection-start-column="23" selection-end-line="7259" selection-end-column="23" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Formular.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Logic/Formulare/Formular.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Loeschen.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/Loeschen.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="957">
-              <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+            <state relative-caret-position="396">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="35" />
               <folding>
-                <marker date="1519994200100" expanded="true" signature="113:135" ph="SELECT * FRO... spanisch" />
-                <marker date="1519994200100" expanded="true" signature="170:236" ph="..." />
-                <marker date="1519994200100" expanded="true" signature="262:280" ph="..." />
-                <marker date="1519994200100" expanded="true" signature="585:621" ph="DELETE FROM spanisch... " />
+                <marker date="1520850908034" expanded="true" signature="525:623" ph="INSERT INTO spanisch... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DbConnect.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/DbConnect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="858">
+              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GerSpaAction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logic/GerSpaAction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="813">
+              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+              <folding>
+                <marker date="1520851171147" expanded="true" signature="471:493" ph="SELECT * FRO... spanisch" />
+                <marker date="1520851171147" expanded="true" signature="687:709" ph="SELECT * FRO... spanisch" />
+                <marker date="1520851171147" expanded="true" signature="989:1005" ph="..." />
+                <marker date="1520851171147" expanded="true" signature="1136:1164" ph="..." />
+                <marker date="1520851171147" expanded="true" signature="1225:1251" ph="..." />
+                <marker date="1520851171147" expanded="true" signature="1302:1330" ph="..." />
+                <marker date="1520851171147" expanded="true" signature="1404:1419" ph="..." />
+                <marker date="1520851171147" expanded="true" signature="1584:1615" ph="..." />
+                <marker date="1520851171147" expanded="true" signature="1684:1719" ph="..." />
+                <marker date="1520851171147" expanded="true" signature="1811:1827" ph="..." />
+                <marker date="1520851171147" expanded="true" signature="1889:1914" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpaGerAction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logic/SpaGerAction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-309">
+              <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+              <folding>
+                <marker date="1520851171085" expanded="true" signature="375:397" ph="SELECT * FRO... spanisch" />
+                <marker date="1520851171085" expanded="true" signature="594:616" ph="SELECT * FRO... spanisch" />
+                <marker date="1520851171085" expanded="true" signature="894:910" ph="..." />
+                <marker date="1520851171085" expanded="true" signature="1040:1068" ph="..." />
+                <marker date="1520851171085" expanded="true" signature="1129:1155" ph="..." />
+                <marker date="1520851171085" expanded="true" signature="1206:1234" ph="..." />
+                <marker date="1520851171085" expanded="true" signature="1308:1323" ph="..." />
+                <marker date="1520851171085" expanded="true" signature="1487:1518" ph="..." />
+                <marker date="1520851171085" expanded="true" signature="1587:1622" ph="..." />
+                <marker date="1520851171085" expanded="true" signature="1715:1731" ph="..." />
+                <marker date="1520851171085" expanded="true" signature="1793:1818" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlAction.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Logic/SqlAction.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="924">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+              <folding>
+                <marker date="1520851064909" expanded="true" signature="468:537" ph="INSERT INTO spanisch... " />
               </folding>
             </state>
           </provider>
@@ -154,10 +139,21 @@
       <find>sess</find>
       <find>1</find>
       <find>show</find>
+      <find>$connection</find>
+      <find>$sql</find>
+      <find>mysqli_query($db, $query);</find>
+      <find>mysqli_fetch_assoc($result)</find>
     </findStrings>
     <replaceStrings>
       <replace>list</replace>
+      <replace>$db</replace>
+      <replace>$query</replace>
+      <replace>$db-&gt;query($query);</replace>
+      <replace>$result-&gt;fetch_assoc</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\spanisch</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -197,10 +193,6 @@
         <option value="$PROJECT_DIR$/src/Logic/FormularGerSpa.html" />
         <option value="$PROJECT_DIR$/src/Logic/Bootstrap.php" />
         <option value="$PROJECT_DIR$/src/Bootstrap.php" />
-        <option value="$PROJECT_DIR$/src/Logic/GerSpaAction.php" />
-        <option value="$PROJECT_DIR$/src/Logic/SpaGerAction.php" />
-        <option value="$PROJECT_DIR$/src/Logic/SqlAction.php" />
-        <option value="$PROJECT_DIR$/src/Logic/WriteAction.php" />
         <option value="$PROJECT_DIR$/src/Logic/HomeAction.php" />
         <option value="$PROJECT_DIR$/webroot/index.php" />
         <option value="$PROJECT_DIR$/src/Logic/Formulare/Navigation.html" />
@@ -211,6 +203,14 @@
         <option value="$PROJECT_DIR$/src/Logic/Funktionen/Bearbeiten.php" />
         <option value="$PROJECT_DIR$/src/Logic/Funktionen/Loeschen.php" />
         <option value="$PROJECT_DIR$/src/Logic/Formulare/Panel.html" />
+        <option value="$PROJECT_DIR$/src/Logic/Funktionen/db_connect.php" />
+        <option value="$PROJECT_DIR$/config.ini" />
+        <option value="$PROJECT_DIR$/src/Logic/Funktionen/DbConnect.php" />
+        <option value="$PROJECT_DIR$/src/Logic/Funktionen/dbConnection.php" />
+        <option value="$PROJECT_DIR$/src/Logic/WriteAction.php" />
+        <option value="$PROJECT_DIR$/src/Logic/GerSpaAction.php" />
+        <option value="$PROJECT_DIR$/src/Logic/SpaGerAction.php" />
+        <option value="$PROJECT_DIR$/src/Logic/SqlAction.php" />
         <option value="$PROJECT_DIR$/src/Logic/ListAction.php" />
       </list>
     </option>
@@ -240,7 +240,7 @@
       <path value="$PROJECT_DIR$/vendor/pimple/pimple" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-13" />
     <option name="y" value="-13" />
     <option name="width" value="3026" />
@@ -285,13 +285,6 @@
               <item name="spanisch" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Logic" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Formulare" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="spanisch" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spanisch" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Logic" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Funktionen" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -303,8 +296,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -317,15 +310,15 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Logic/Funktionen" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\spanisch\src\Logic" />
-      <recent name="C:\xampp\htdocs\spanisch\src" />
-      <recent name="C:\xampp\htdocs\spanisch\src\Logic\Funktionen" />
-      <recent name="C:\xampp\htdocs\spanisch\src\Logic\Formulare" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\spanisch\src\Logic" />
       <recent name="C:\xampp\htdocs\spanisch\src\LogicTest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\spanisch\src\Logic\Funktionen" />
+      <recent name="C:\xampp\htdocs\spanisch\src\Logic" />
+      <recent name="C:\xampp\htdocs\spanisch\src" />
+      <recent name="C:\xampp\htdocs\spanisch\src\Logic\Formulare" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -361,34 +354,38 @@
       <workItem from="1519898951249" duration="16138000" />
       <workItem from="1519973890971" duration="909000" />
       <workItem from="1519993135724" duration="2187000" />
+      <workItem from="1520246786304" duration="2496000" />
+      <workItem from="1520846749103" duration="4767000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34482000" />
+    <option name="totallyTimeSpent" value="41745000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-13" y="-13" width="3026" height="1946" extended-state="7" />
+    <frame x="-13" y="-13" width="3026" height="1946" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17891483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18372253" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -403,59 +400,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Logic/ListAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="12" column="23" lean-forward="false" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <marker date="1519994287152" expanded="true" signature="354:396" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994287152" expanded="true" signature="354:414" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994287152" expanded="true" signature="535:603" ph="..." />
-            <marker date="1519994287152" expanded="true" signature="629:668" ph="..." />
-            <marker date="1519994287152" expanded="true" signature="1084:1106" ph="SELECT * FRO... spanisch" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/Formulare/Kategorien.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/Bearbeiten.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <marker date="1519994200077" expanded="true" signature="114:136" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994200077" expanded="true" signature="186:252" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="278:296" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="422:764" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="422:884" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="475:764" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="519:756" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="1295:1354" ph="UPDATE spanisch... " />
-            <marker date="1519994200077" expanded="true" signature="1480:1535" ph="UPDATE spanisch... " />
-            <marker date="1519994200077" expanded="true" signature="1663:1720" ph="UPDATE spanisch... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/Loeschen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1089">
-          <caret line="33" column="2" lean-forward="true" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
-          <folding>
-            <marker date="1519994200100" expanded="true" signature="113:135" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994200100" expanded="true" signature="170:236" ph="..." />
-            <marker date="1519994200100" expanded="true" signature="262:280" ph="..." />
-            <marker date="1519994200100" expanded="true" signature="585:621" ph="DELETE FROM spanisch... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/Formulare/Panel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
@@ -468,12 +412,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding>
-            <marker date="1519915666582" expanded="true" signature="439:498" ph="INSERT INTO spanisch... " />
-            <marker date="1519915666582" expanded="true" signature="439:499" ph="INSERT INTO spanisch... " />
-            <marker date="1519915666582" expanded="true" signature="439:507" ph="INSERT INTO spanisch... " />
-            <marker date="1519915666582" expanded="true" signature="439:508" ph="INSERT INTO spanisch... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,7 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -497,7 +434,7 @@
         <state relative-caret-position="891">
           <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding>
-            <marker date="1519915666457" expanded="true" signature="495:593" ph="INSERT INTO spanisch... " />
+            <marker date="1520850908034" expanded="true" signature="525:623" ph="INSERT INTO spanisch... " />
           </folding>
         </state>
       </provider>
@@ -542,11 +479,11 @@
         <state relative-caret-position="858">
           <caret line="26" column="280" lean-forward="false" selection-start-line="26" selection-start-column="280" selection-end-line="26" selection-end-column="280" />
           <folding>
-            <marker date="1519994287152" expanded="true" signature="354:396" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994287152" expanded="true" signature="354:414" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994287152" expanded="true" signature="535:603" ph="..." />
-            <marker date="1519994287152" expanded="true" signature="629:668" ph="..." />
-            <marker date="1519994287152" expanded="true" signature="1084:1106" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851267620" expanded="true" signature="385:427" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851267620" expanded="true" signature="385:445" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851267620" expanded="true" signature="561:629" ph="..." />
+            <marker date="1520851267620" expanded="true" signature="655:694" ph="..." />
+            <marker date="1520851267620" expanded="true" signature="1107:1129" ph="SELECT * FRO... spanisch" />
           </folding>
         </state>
       </provider>
@@ -603,87 +540,10 @@
     <entry file="file://$PROJECT_DIR$/src/Gaestebuch/gbook.php" />
     <entry file="file://$PROJECT_DIR$/src/NeuesGb/index.php" />
     <entry file="file://$PROJECT_DIR$/src/Logic/Test.php" />
-    <entry file="file://$PROJECT_DIR$/src/Logic/GerSpaAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding>
-            <marker date="1519915666428" expanded="true" signature="440:462" ph="SELECT * FRO... spanisch" />
-            <marker date="1519915666428" expanded="true" signature="659:681" ph="SELECT * FRO... spanisch" />
-            <marker date="1519915666428" expanded="true" signature="959:971" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="959:975" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1106:1118" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1106:1134" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1195:1221" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1272:1300" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1374:1389" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1554:1585" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1654:1689" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1667:1689" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1794:1797" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1794:1913" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1859:1880" ph="..." />
-            <marker date="1519915666428" expanded="true" signature="1859:1884" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/SpaGerAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <marker date="1519915666482" expanded="true" signature="344:366" ph="SELECT * FRO... spanisch" />
-            <marker date="1519915666482" expanded="true" signature="566:588" ph="SELECT * FRO... spanisch" />
-            <marker date="1519915666482" expanded="true" signature="864:880" ph="..." />
-            <marker date="1519915666482" expanded="true" signature="1010:1038" ph="..." />
-            <marker date="1519915666482" expanded="true" signature="1099:1125" ph="..." />
-            <marker date="1519915666482" expanded="true" signature="1176:1204" ph="..." />
-            <marker date="1519915666482" expanded="true" signature="1278:1293" ph="..." />
-            <marker date="1519915666482" expanded="true" signature="1457:1488" ph="..." />
-            <marker date="1519915666482" expanded="true" signature="1557:1592" ph="..." />
-            <marker date="1519915666482" expanded="true" signature="1685:1701" ph="..." />
-            <marker date="1519915666482" expanded="true" signature="1763:1788" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/SqlAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
-          <folding>
-            <marker date="1519915666582" expanded="true" signature="439:498" ph="INSERT INTO spanisch... " />
-            <marker date="1519915666582" expanded="true" signature="439:499" ph="INSERT INTO spanisch... " />
-            <marker date="1519915666582" expanded="true" signature="439:507" ph="INSERT INTO spanisch... " />
-            <marker date="1519915666582" expanded="true" signature="439:508" ph="INSERT INTO spanisch... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/WriteAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <marker date="1519915666457" expanded="true" signature="495:593" ph="INSERT INTO spanisch... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/Bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="34" column="1" lean-forward="false" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/HomeAction.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -733,14 +593,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33">
           <caret line="1" column="33" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webroot/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="7259" column="23" lean-forward="true" selection-start-line="7259" selection-start-column="23" selection-end-line="7259" selection-end-column="23" />
+        <state relative-caret-position="239547">
+          <caret line="7259" column="23" lean-forward="false" selection-start-line="7259" selection-start-column="23" selection-end-line="7259" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -748,7 +607,7 @@
     <entry file="file://$PROJECT_DIR$/src/Logic/Formulare/Formular.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="792">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+          <caret line="24" column="20" lean-forward="false" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -758,16 +617,16 @@
         <state relative-caret-position="693">
           <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <marker date="1519994200077" expanded="true" signature="114:136" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994200077" expanded="true" signature="186:252" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="278:296" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="422:764" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="422:884" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="475:764" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="519:756" ph="..." />
-            <marker date="1519994200077" expanded="true" signature="1295:1354" ph="UPDATE spanisch... " />
-            <marker date="1519994200077" expanded="true" signature="1480:1535" ph="UPDATE spanisch... " />
-            <marker date="1519994200077" expanded="true" signature="1663:1720" ph="UPDATE spanisch... " />
+            <marker date="1520851134982" expanded="true" signature="116:138" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851134982" expanded="true" signature="188:254" ph="..." />
+            <marker date="1520851134982" expanded="true" signature="280:298" ph="..." />
+            <marker date="1520851134982" expanded="true" signature="424:766" ph="..." />
+            <marker date="1520851134982" expanded="true" signature="424:886" ph="..." />
+            <marker date="1520851134982" expanded="true" signature="477:766" ph="..." />
+            <marker date="1520851134982" expanded="true" signature="521:758" ph="..." />
+            <marker date="1520851134982" expanded="true" signature="1299:1358" ph="UPDATE spanisch... " />
+            <marker date="1520851134982" expanded="true" signature="1488:1543" ph="UPDATE spanisch... " />
+            <marker date="1520851134982" expanded="true" signature="1675:1732" ph="UPDATE spanisch... " />
           </folding>
         </state>
       </provider>
@@ -775,62 +634,155 @@
     <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/Loeschen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="957">
-          <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-          <folding>
-            <marker date="1519994200100" expanded="true" signature="113:135" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994200100" expanded="true" signature="170:236" ph="..." />
-            <marker date="1519994200100" expanded="true" signature="262:280" ph="..." />
-            <marker date="1519994200100" expanded="true" signature="585:621" ph="DELETE FROM spanisch... " />
-          </folding>
+          <caret line="29" column="2" lean-forward="false" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Logic/Formulare/Panel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1287">
+        <state relative-caret-position="0">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/ListAction.php">
+    <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/Pagination.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="36" column="42" lean-forward="false" selection-start-line="36" selection-start-column="42" selection-end-line="36" selection-end-column="42" />
+        <state relative-caret-position="2409">
+          <caret line="73" column="5" lean-forward="false" selection-start-line="73" selection-start-column="5" selection-end-line="73" selection-end-column="5" />
           <folding>
-            <marker date="1519994287152" expanded="true" signature="354:396" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994287152" expanded="true" signature="354:414" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994287152" expanded="true" signature="535:603" ph="..." />
-            <marker date="1519994287152" expanded="true" signature="629:668" ph="..." />
-            <marker date="1519994287152" expanded="true" signature="1084:1106" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851135123" expanded="true" signature="74:88" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851135123" expanded="true" signature="74:96" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851135123" expanded="true" signature="608:614" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="661:667" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="932:938" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="985:991" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="1296:1302" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="1349:1355" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="1776:1782" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="1829:1835" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="2061:2084" ph="SELECT * fro... spanisch" />
+            <marker date="1520851135123" expanded="true" signature="2265:2271" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="2273:2279" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="2281:2287" ph=" " />
+            <marker date="1520851135123" expanded="true" signature="2719:2814" ph="..." />
+            <marker date="1520851135123" expanded="true" signature="2887:2955" ph="..." />
+            <marker date="1520851135123" expanded="true" signature="2981:3020" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/Pagination.php">
+    <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/db_connect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="58" column="24" lean-forward="true" selection-start-line="58" selection-start-column="24" selection-end-line="58" selection-end-column="24" />
+        <state relative-caret-position="693">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/dbConnection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" column="2" lean-forward="true" selection-start-line="26" selection-start-column="2" selection-end-line="26" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/Funktionen/DbConnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/WriteAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="35" />
           <folding>
-            <marker date="1519994152007" expanded="true" signature="72:86" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994152007" expanded="true" signature="72:94" ph="SELECT * FRO... spanisch" />
-            <marker date="1519994152007" expanded="true" signature="600:606" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="653:659" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="924:930" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="977:983" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="1288:1294" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="1341:1347" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="1768:1774" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="1821:1827" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="2051:2074" ph="SELECT * fro... spanisch" />
-            <marker date="1519994152007" expanded="true" signature="2251:2257" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="2259:2265" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="2267:2273" ph=" " />
-            <marker date="1519994152007" expanded="true" signature="2705:2800" ph="..." />
-            <marker date="1519994152007" expanded="true" signature="2873:2941" ph="..." />
-            <marker date="1519994152007" expanded="true" signature="2967:3006" ph="..." />
-            <marker date="1519994152007" expanded="true" signature="3352:3388" ph="..." />
-            <marker date="1519994152007" expanded="true" signature="3389:3448" ph="..." />
+            <marker date="1520850908034" expanded="true" signature="525:623" ph="INSERT INTO spanisch... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/HomeAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/GerSpaAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="813">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <marker date="1520851171147" expanded="true" signature="471:493" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851171147" expanded="true" signature="687:709" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851171147" expanded="true" signature="989:1005" ph="..." />
+            <marker date="1520851171147" expanded="true" signature="1136:1164" ph="..." />
+            <marker date="1520851171147" expanded="true" signature="1225:1251" ph="..." />
+            <marker date="1520851171147" expanded="true" signature="1302:1330" ph="..." />
+            <marker date="1520851171147" expanded="true" signature="1404:1419" ph="..." />
+            <marker date="1520851171147" expanded="true" signature="1584:1615" ph="..." />
+            <marker date="1520851171147" expanded="true" signature="1684:1719" ph="..." />
+            <marker date="1520851171147" expanded="true" signature="1811:1827" ph="..." />
+            <marker date="1520851171147" expanded="true" signature="1889:1914" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/SpaGerAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-309">
+          <caret line="21" column="31" lean-forward="false" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
+          <folding>
+            <marker date="1520851171085" expanded="true" signature="375:397" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851171085" expanded="true" signature="594:616" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851171085" expanded="true" signature="894:910" ph="..." />
+            <marker date="1520851171085" expanded="true" signature="1040:1068" ph="..." />
+            <marker date="1520851171085" expanded="true" signature="1129:1155" ph="..." />
+            <marker date="1520851171085" expanded="true" signature="1206:1234" ph="..." />
+            <marker date="1520851171085" expanded="true" signature="1308:1323" ph="..." />
+            <marker date="1520851171085" expanded="true" signature="1487:1518" ph="..." />
+            <marker date="1520851171085" expanded="true" signature="1587:1622" ph="..." />
+            <marker date="1520851171085" expanded="true" signature="1715:1731" ph="..." />
+            <marker date="1520851171085" expanded="true" signature="1793:1818" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/SqlAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <marker date="1520851064909" expanded="true" signature="468:537" ph="INSERT INTO spanisch... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Logic/ListAction.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1353">
+          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <marker date="1520851267620" expanded="true" signature="385:427" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851267620" expanded="true" signature="385:445" ph="SELECT * FRO... spanisch" />
+            <marker date="1520851267620" expanded="true" signature="561:629" ph="..." />
+            <marker date="1520851267620" expanded="true" signature="655:694" ph="..." />
+            <marker date="1520851267620" expanded="true" signature="1107:1129" ph="SELECT * FRO... spanisch" />
           </folding>
         </state>
       </provider>
